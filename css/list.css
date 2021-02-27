@@ -1,0 +1,62 @@
+/* 列表页专有的css */
+.header .sk {
+    position: absolute;
+    top: 15px;
+    left: 190px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #b1191a;
+}
+.nav {
+    overflow: hidden;
+}
+.nav .sk_list {
+    float: left;
+    width: 360px;
+    height: 46px;
+}
+.sk_list ul li {
+    float: left;
+    padding: 0 27px;
+    line-height: 46px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    padding: 0 23px;
+    line-height: 49px;
+    font-size: 14px;
+}
+.sk_con ul li:nth-child(2) a {
+    color: #bb3839;
+}
+/* 直接在a链接后面给个伪元素，伪元素会直接跟在内容后面，不管padding值 */
+.sk_con ul li:last-child a::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_container {
+    margin-bottom: 30px;
+}
+.sk_container .sk_hd {
+    margin-bottom: 27px;
+}
+.sk_container .sk_bd ul li {
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 458px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+}
+.sk_container .sk_bd ul li:hover {
+    border: 1px solid red;
+}
+

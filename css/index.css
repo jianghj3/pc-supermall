@@ -1,0 +1,216 @@
+/* main模块start */
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+    /* background-color: pink; */
+}
+.main .focus {
+    float: left;
+    width: 720px;
+    height: 100%;
+}
+.main .focus img {
+    width: 720px;
+    height: 100%;
+}
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+    border: 1px solid #ccc;
+}
+.newsflash .news {
+    height: 165px;
+}
+.news_hd {
+    height: 33px;
+    padding: 0 15px;
+    line-height: 33px;
+    border-bottom: 1px dotted #ccc;
+}
+.news_hd h3 {
+    float: left;
+}
+.news_hd a {
+    float: right;
+}
+.news_hd a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+.news_bd {
+    padding: 5px 15px;
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newsflash .lifeservice {
+    height: 209px;
+    border-top: 1px solid #ccc;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    text-align: center;
+}
+.lifeservice ul li:nth-child(4n) {
+    border-right: 0;
+}
+.lifeservice ul li .icons {
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+   margin-top: 13px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.newsflash .bargain {
+    height: 76px;
+}
+.newsflash img {
+    margin-top: 5px;
+    width: 250px;
+    height: 72px;
+}
+/* main模块end */
+/* recom模块start */
+.recom {
+    width: 1202px;
+    height: 164px;
+    margin-top: 12px;
+}
+.recom .recom_hd {
+    float: left;
+    width: 206px;
+    height: 164px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom_hd img {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.recom .recom_bd {
+    float: left;
+    width: 996px;
+    height: 164px;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 249px;
+    height: 164px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ccc;
+}
+.recom_bd ul li img {
+    /* 因为图片是后端人员上传的，大小不一致，为了不使页面变得混乱，所以要把图片的大小定死。 */
+    width: 249px;
+    height: 164px;
+}
+/* recom模块end */
+/* floor模块start */
+/* 家用电器模块start */
+.box_hd {
+    height: 32px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #c81623;
+}
+.box_hd .tab_list {
+    float: right;
+}
+.box_hd .tab_list li {
+    float: left;
+    line-height: 30px;
+}
+.box_hd .tab_list li a {
+    padding: 0 15px;
+}
+.box_hd .tab_list li .remen {
+    color: #c81623;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+}
+.tab_list_item>div {
+    float: left;
+}
+.col_210 {
+    width: 210px;
+}
+.col_328 {
+    width: 328px;
+}
+.col_221 {
+    width: 221px;
+}
+.col_220 {
+    width: 220px;
+}
+.tab_list_item .col_210 {
+    text-align: center;   
+    background-color: #fbfbfb;
+}
+.tab_list_item .col_210 ul {
+    margin-left: 12px;
+}
+.tab_list_item .col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-right: 10px;
+    line-height: 34px;
+    border-bottom: 1px solid #ccc;
+}
+.tab_list_item .col_210 img {
+    margin-top: 10px;
+    width: 187px;
+    height: 227px;
+}
+.tab_list_item .col_328 img {
+    width: 328px;
+    height: 361px;
+}
+.tab_list_item .col_220 .top {
+    width: 220px;
+    height: 186px;
+    border-bottom: 1px solid #ccc;
+}
+.tab_list_item .col_220 .bottom {
+    width: 220px;
+    height: 175px;
+}
+.tab_list_item .col_220 {
+    width: 220px;
+    height: 361px;
+}
+
+/* 家用电器模块end */
+/* floor模块end */

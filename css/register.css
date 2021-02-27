@@ -1,0 +1,128 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}    
+.header {
+    height: 84px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c81523;
+}
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+}
+.hd {
+    height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+.hd .new {
+    float: left;   
+    padding-left: 10px; 
+    line-height: 42px;
+    font-size: 18px;
+}
+.hd .login {
+    float: right;
+    padding-right: 10px;
+    line-height: 42px;
+}
+.hd .login a {
+    color: #c81523;
+}
+.reg_form {
+    width: 540px;
+    margin: 48px auto 60px;
+}
+.reg_form ul li {
+   margin-bottom:20px ;
+}
+.reg_form label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li input {
+    width: 241px;
+    height: 35px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.reg_form ul li span .error_icon, .reg_form ul li span .success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+.reg_form ul li span .success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.reg_form ul li .error {
+    color: #c81523;
+}
+.reg_form ul li .success {
+    color: #39ba36;
+}
+.reg_form ul .safe {
+    margin-left: 144px;
+}
+.reg_form ul .safe em {
+    padding: 0 15px;
+    margin-right: 4px;
+    color: #fff;
+}
+.reg_form ul .safe .ruo {
+    background-color: #de1111;
+}
+.reg_form ul .safe .zhong{
+    background-color: #40b83f;
+}
+.reg_form ul .safe .qiang {
+    background-color: #f79100;
+}
+.reg_form ul .agree {
+    margin-left: 88px;
+}
+.reg_form ul .agree input {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+.reg_form ul .agree a {
+    margin-left: 5px;
+    color: #1ba1e6;
+}
+.reg_form ul .finish input {
+    width: 195px;
+    height: 32px;
+    margin: 30px 0 0 85px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #c81623;
+} 
+/* mod_copyright模块start */
+.mod_copyright {
+    margin-top: 20px;
+}
+.mod_copyright ul {
+    margin-left: 100px;
+}
+.mod_copyright ul li {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #ccc;
+}
+.mod_copyright ul li:last-child {
+    border-right: 0;
+}
+.mod_copyright .address {
+    margin-top: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+/* mod_copyright模块end */
